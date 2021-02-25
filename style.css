@@ -76,28 +76,27 @@ p {
 }
 
 .menu {
-    list-style: none;
     font-family: sans-serif;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    background: black;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
     z-index: 10;
     cursor: pointer
 }
 
 .links {
-    float: left;
-    color: azure;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px
 }
 
 .links:hover {
-    background-color: cornflowerblue;
+    font-size: 27.5px;
+    text-decoration: underline;
 }
 
 html {
@@ -106,8 +105,29 @@ html {
 
 a {
     text-decoration: none;
+    color: coral;
+    text-shadow: 2px 2px gainsboro;
 }
 
 .article:hover {
     color: cornflowerblue;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: azure !imortant;
+}
+
+#contact {
+    background: grey;
+}
+
+.contact_1 a {
+    color: aliceblue;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
 }
